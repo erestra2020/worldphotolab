@@ -1,0 +1,16 @@
+/*
+Theme Name: WorldPhotoLab
+Theme URI: https://worldphotolab.com
+Author: WorldPhotoLab
+Description: Premium photographer directory WordPress theme.
+Version: 1.0.0
+Text Domain: worldphotolab
+*/
+body { margin:0; font-family:Arial, sans-serif; background:#111; color:#fff; }
+.wpl-header { display:flex; justify-content:space-between; align-items:center; padding:22px 6%; border-bottom:1px solid rgba(255,255,255,.12); }
+.wpl-logo { font-size:24px; font-weight:700; }
+.wpl-hero { min-height:70vh; padding:110px 6%; background:linear-gradient(135deg,#111,#272018); }
+.wpl-hero h1 { font-size:56px; max-width:850px; line-height:1.05; }
+.wpl-hero p { font-size:20px; color:#ddd; max-width:620px; }
+.wpl-hero a { display:inline-block; margin:18px 12px 0 0; padding:14px 22px; border-radius:999px; background:#d4af37; color:#111; text-decoration:none; font-weight:700; }
+.wpl-footer { padding:30px 6%; border-top:1px solid rgba(255,255,255,.12); color:#aaa; }

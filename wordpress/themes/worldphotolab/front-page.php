@@ -56,8 +56,6 @@
   </section>
 
 </main>
-
-<?php get_footer(); ?>
 <section class="wpl-stats">
   <div class="wpl-container wpl-stats-grid">
     <div><strong>10,000+</strong><span>Photographers</span></div>
@@ -148,3 +146,4 @@
     <a href="<?php echo esc_url(home_url('/become-a-photographer')); ?>">Become a Photographer</a>
   </div>
 </section>
+<?php get_footer(); ?>

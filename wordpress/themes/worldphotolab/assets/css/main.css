@@ -68,3 +68,138 @@ a{text-decoration:none;color:inherit}
   .wpl-menu{display:none}
   .wpl-floating-card{left:18px}
 }
+.wpl-city-card{
+background:#fff;
+}
+/* ==========================
+HOW IT WORKS
+========================== */
+
+.wpl-how-grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:30px;
+
+margin-top:40px;
+
+}
+
+.wpl-how-card{
+
+background:#fff;
+
+padding:40px;
+
+border-radius:24px;
+
+text-align:center;
+
+box-shadow:0 15px 50px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.wpl-how-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.wpl-step{
+
+width:70px;
+
+height:70px;
+
+border-radius:50%;
+
+background:#D4AF37;
+
+color:#111;
+
+font-size:30px;
+
+font-weight:700;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+margin:0 auto 25px;
+
+}
+
+.wpl-how-card h3{
+
+font-size:26px;
+
+margin-bottom:15px;
+
+}
+
+.wpl-how-card p{
+
+color:#666;
+
+line-height:1.7;
+
+}
+
+@media(max-width:900px){
+
+.wpl-how-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+.wpl-newsletter{
+  background:linear-gradient(135deg,#081429,#111827);
+  color:#fff;
+  padding:80px 0;
+  text-align:center;
+}
+
+.wpl-newsletter h2{
+  font-size:44px;
+  margin:0 0 12px;
+}
+
+.wpl-newsletter p{
+  color:#cbd5e1;
+  font-size:18px;
+}
+
+.wpl-newsletter-form{
+  margin:30px auto 0;
+  max-width:560px;
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:12px;
+  background:#fff;
+  padding:10px;
+  border-radius:999px;
+}
+
+.wpl-newsletter-form input{
+  border:0;
+  padding:14px 18px;
+  font-size:16px;
+  outline:none;
+}
+
+.wpl-newsletter-form button{
+  border:0;
+  background:#d4af37;
+  color:#111;
+  font-weight:900;
+  padding:14px 24px;
+  border-radius:999px;
+}
